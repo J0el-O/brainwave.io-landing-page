@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sm:scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,10 +27,10 @@
       
       <nav class="text-sm font-montserrat font-bold text-right sm:text-center sm:pl-36  space-x-12 -mt-1 mr-2">
         <a class="hover:opacity-75" href="#hero">Home</a>
-        <a class="hover:opacity-75" href="">Demos</a>
-        <a class="hover:opacity-75" href="">Pages</a>
+        <a class="hover:opacity-75" href="#demos">Demos</a>
+        <a class="hover:opacity-75" href="#steps">Pages</a>
+        <a class="hover:opacity-75" href="#testimonials">Testimonials</a>
         <a class="hover:opacity-75" href="">Support</a>
-        <a class="hover:opacity-75" href="">Contact</a>
         </nav>
       </div>
     </header>
@@ -38,7 +38,7 @@
 
   
 <!--===HERO===-->
-<section id="hero" class="rounded-lg mx-auto max-w-2xl p-8 font-montserrat mt-24 flex justify-center items-center shadow-inner">
+<section id="hero" class="rounded-lg mx-auto max-w-2xl p-8 font-montserrat my-48 flex justify-center items-center shadow-inner scroll-mt-72 widescreen:section-min-height tallscreen:section-min-height">
   <div class="text-center">
     <h1 class="text-4xl font-bold drop-shadow-lg">
       Get things done by awesome remote teams
@@ -57,47 +57,7 @@
 
 
 <!--===FEATURES===-->
-<!-- <section class="mx-auto justify-center flex pt-12 space-x-6 font-montserrat">
-  <div class="flex">
-
-    <img src="img/landingpage1dashboard.png" alt="" class="text-center pt-8 max-w-lg absolute">
-  <div class="mt-96">
-
-    <div class="  justify-center max-w-xs ">
-      <i class="fa-duotone fa-code text-green-500"></i>
-    <h1 class="text-xl font-montserrat py-3 font-bold">
-      Project Management
-    </h1>
-    <p class="font-montserrat text-slate-700">
-      With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
-    </p>
-  </div>
-
-
-  <div class=" flex-col justify-center max-w-xs">
-    <i class="fa-thin fa-clock-rotate-left text-green-500"></i>
-    <h1 class="text-xl font-montserrat py-3 font-bold">
-      Time tracking
-    </h1>
-    <p class="font-montserrat text-slate-700">
-      With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
-    </p>
-  </div>
-
-  
-  <div class=" flex-col justify-center max-w-xs">
-    <i class="fa-thin fa-mobile-screen text-green-500"></i>
-    <h1 class="text-xl font-montserrat py-3 font-bold">
-      Beautiful Mobile App
-    </h1>
-    <p class="font-montserrat text-slate-700">
-      With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
-    </p>
-  </div>
-</div>  
-</div>
-</section> -->
-<section class="mx-auto justify-center flex flex-col pt-12 space-y-4 font-montserrat">
+<section class="mx-auto justify-center flex flex-col pt-12 space-y-4 font-montserrat widescreen:section-min-height tallscreen:section-min-height">
   <img src="img/landingpage1dashboard.png" alt="" class="max-w-3xl mx-auto shadow-2xl">
   <div class="pt-24 flex mx-auto space-x-8 max-w-5xl font-montserrat flex-row">  
 
@@ -134,7 +94,7 @@
 </section>
 
 <!--===GET STARTED===-->
-<section class="pt-24">
+<section id="demos" class="pt-24 widescreen:section-min-height tallscreen:section-min-height">
   <div class="bg-[#F4F7FA] flex justify-center w-screen pt-48 pb-28">
     <div class="font-montserrat space-y-6 -ml-48 max-w-sm">
       <h1 class="text-2xl font-bold max-w-xs">
@@ -194,7 +154,7 @@
 
 
 <!--===PROJECT STEPS===-->
-<section class="font-montserrat">
+<section id="steps" class="font-montserrat widescreen:section-min-height tallscreen:section-min-height">
   <h1 class="pt-24 font-bold text-2xl text-center">
     Manage your projects fast
   </h1>
@@ -266,9 +226,9 @@
     </div>
   </section>
 
-<!--pt-48-->
+
   <!--===TESTIMONIALS===-->
-<section class="bg-[#F4F7FA] pt-28 w-screen font-montserrat pb-28 space-x-24 flex justify-center">
+<section id="testimonials" class="bg-[#F4F7FA] pt-28 w-screen font-montserrat pb-28 space-x-24 flex justify-center widescreen:section-min-height tallscreen:section-min-height">
   <div class="flex flex-col items-center space-y-4">
     <img src="img/testimonialpic1.png" alt="" class="rounded-full h-16">
     <h3 class="font-bold">
