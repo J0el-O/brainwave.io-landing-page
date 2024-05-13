@@ -25,7 +25,7 @@
         </h1>
       </a>
       
-      <nav class="text-sm font-montserrat font-bold text-right sm:text-center sm:pl-36  space-x-12 -mt-1 mr-2">
+      <nav class="hidden sm:block text-sm font-montserrat font-bold text-right sm:text-center sm:pl-36  space-x-12 -mt-1 mr-2">
         <a class="hover:opacity-75" href="#hero">Home</a>
         <a class="hover:opacity-75" href="#demos">Demos</a>
         <a class="hover:opacity-75" href="#steps">Pages</a>
@@ -58,10 +58,11 @@
 
 <!--===FEATURES===-->
 <section class="mx-auto justify-center flex flex-col pt-12 space-y-4 font-montserrat widescreen:section-min-height tallscreen:section-min-height">
-  <img src="build/img/landingpage1dashboard.png" alt="" class="max-w-3xl mx-auto shadow-2xl">
-  <div class="pt-24 flex mx-auto space-x-8 max-w-5xl font-montserrat flex-row">  
+  <img src="build/img/landingpage1dashboard.png" alt="" class="mx-auto justify-center max-w-xs sm:max-w-3xl  shadow-2xl">
+  
+  <div class="pt-24 flex flex-col sm:flex-row mx-auto space-y-12 sm:space-y-0 sm:space-x-8 max-w-sm sm:max-w-5xl font-montserrat ">  
 
-    <div class="max-w-md">
+    <div class="max-w-xs">
       <i class="fa-duotone fa-code text-green-500"></i>
       <h1 class="text-xl font-montserrat py-3 font-bold">
         Project Management
@@ -71,7 +72,7 @@
       </p>
     </div>
 
-    <div class="max-w-md">
+    <div class="max-w-xs">
       <i class="fa-thin fa-clock-rotate-left text-green-500"></i>
       <h1 class="text-xl font-montserrat py-3 font-bold">
         Time tracking
@@ -81,7 +82,7 @@
       </p>
     </div>
 
-    <div class="max-w-md">
+    <div class="max-w-xs">
       <i class="fa-thin fa-mobile-screen text-green-500"></i>
       <h1 class="text-xl font-montserrat py-3 font-bold">
         Beautiful Mobile App
@@ -95,8 +96,8 @@
 
 <!--===GET STARTED===-->
 <section id="demos" class="pt-24 widescreen:section-min-height tallscreen:section-min-height">
-  <div class="bg-[#F4F7FA] flex justify-center w-screen pt-48 pb-28">
-    <div class="font-montserrat space-y-6 -ml-48 max-w-sm">
+  <div class="bg-[#F4F7FA] flex flex-col sm:flex-row justify-center w-screen pt-48 pb-28">
+    <div class="mx-auto sm:mx-0 font-montserrat space-y-6 sm:-ml-48 max-w-xs sm:max-w-sm">
       <h1 class="text-2xl font-bold max-w-xs">
         Getting started with <br> Albino is easier than ever
       </h1>
@@ -108,7 +109,7 @@
       </button>
     </div>
 
-    <div class="ml-24 -mt-8 max-w-md space-x-12 relative flex">
+    <div class="pt-24 sm:pt-0 sm:ml-24 sm:-mt-8 max-w-md space-x-12 relative flex">
       <img src="build/img/landingpage1gettingstartedleft.png" alt="" class="opacity-45 h-80">
 
       <div class="-mt-4 flex-col space-y-16">
@@ -120,30 +121,30 @@
   </div>
 
 
-  <div class="mx-auto flex justify-center pt-12 pb-12 font-montserrat max-w-xs space-x-20">
-    <div class="flex flex-row items-center space-x-5">
-      <h1 class="font-bold text-3xl">
+  <div class="mx-auto flex justify-center pt-12 pb-12 font-montserrat max-w-4 sm:max-w-20 space-x-5 sm:space-x-20">
+    <div class="flex flex-row items-center space-x-1 sm:space-x-5">
+      <h1 class="font-bold text-xl sm:text-3xl">
         1M+
       </h1>
-      <p class=" text-[12.22px] text-slate-700 min-w-40">
-        Customers visit Albino <br> every months
+      <p class="text-[6.11px] sm:text-[12.22px] text-slate-700 min-w-16 sm:min-w-40">
+        Customers visit Albino <br class="hidden sm:block"> every months
       </p>
     </div>
 
-    <div class="flex flex-row items-center space-x-5">
-      <h1 class="font-bold text-3xl">
+    <div class="flex flex-row items-center space-x-1 sm:space-x-5">
+      <h1 class="font-bold text-xl sm:text-3xl">
         93%
       </h1>
-      <p class=" text-[12.22px] text-slate-700 min-w-40">
-        Satisfaction rate from <br> our customers.
+      <p class=" text-[6.11px] sm:text-[12.22px] text-slate-700 min-w-16 sm:min-w-40">
+        Satisfaction rate from <br class="hidden sm:block"> our customers.
       </p>
     </div>
 
-    <div class="flex flex-row items-center space-x-5">
-      <h1 class="font-bold text-3xl">
+    <div class="flex flex-row items-center space-x-1 sm:space-x-5">
+      <h1 class="font-bold text-xl sm:text-3xl">
         4.9
       </h1>
-      <p class=" text-[12.22px] text-slate-700 min-w-40">
+      <p class=" text-[6.11px] sm:text-[12.22px] text-slate-700 min-w-16 sm:min-w-40">
         Average customer <br> ratings out of 5.00!
       </p>
     </div>
@@ -158,21 +159,23 @@
   <h1 class="pt-24 font-bold text-2xl text-center">
     Manage your projects fast
   </h1>
-  <p class="pt-4 text-center font-montserrat text-slate-700 text-xs mx-auto max-w-sm">
+  <p class="pt-4 text-center font-montserrat text-slate-700 text-xs mx-auto max-w-60 sm:max-w-sm">
     With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
   </p>
 
-<div class="flex flex-row  pt-36 space-x-16 pl-32">
-  <div class="ml-24 -mt-8 max-w-lg space-x-4 relative flex">
-    <img src="build/img/projectstepsbgleft.png" alt="" class="opacity-55 h-96">
+<div class="flex flex-col sm:flex-row pt-12 sm:pt-36  sm:space-x-16 sm:pl-32">
+  <div class="mx-auto sm:mx-0 sm:ml-24 my-12 sm:mb-0 sm:-mt-8 max-w-sm sm:max-w-lg space-x-4 relative flex">
+    <img src="build/img/projectstepsbgleft.png" alt="" class=" z-0 opacity-55 h-52 sm:h-96">
     
     <div class="mt-9">
-      <img src="build/img/projectstepsbgright.png" alt="" class="opacity-45 h-50">      
+      <img src="build/img/projectstepsbgright.png"
+      
+      alt="" class="z-0 opacity-45 h-36 sm:h-50">      
     </div>
-          <img src="build/img/projectstepsfront.png" alt="" class="absolute pl-16 pt-36  h-72 drop-shadow-2xl">
+          <img src="build/img/projectstepsfront.png" alt="" class="z-10 absolute pl-12 sm:pl-16 pt-16 sm:pt-36  h-36 sm:h-72 drop-shadow-2xl">
       </div>
 
-      <div class="space-y-6">    
+      <div class="space-y-6 mb-20 sm:mb-0">    
         <div> 
           <div class=" flex flex-row  justify-center text-right space-x-5">
             <span class="text-xs text-[#473BF0] border bg-slate-200 rounded-full max-h-4 mt-1  px-1" >
@@ -182,7 +185,7 @@
               <h4 class="font-bold">
                 Create a project
               </h4>
-              <p class="text-slate-700 text-[12px] max-w-xs">
+              <p class="text-slate-700 text-[10px] sm:text-[12px] max-w-xs">
                 With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
               </p>
             </div>
@@ -190,7 +193,7 @@
         </div>
 
         <div> 
-          <div class=" flex flex-row  justify-center text-right space-x-5">
+          <div class=" flex flex-row justify-center text-right space-x-5">
             <span class="text-xs text-[#473BF0] border bg-slate-200 rounded-full max-h-4 mt-1  px-1" >
               2
             </span>
@@ -228,107 +231,111 @@
 
 
   <!--===TESTIMONIALS===-->
-<section id="testimonials" class="bg-[#F4F7FA] pt-28 w-screen font-montserrat pb-28 space-x-24 flex justify-center widescreen:section-min-height tallscreen:section-min-height">
-  <div class="flex flex-col items-center space-y-4">
-    <img src="build/img/testimonialpic1.png" alt="" class="rounded-full h-16">
-    <h3 class="font-bold">
-      "You made it so simple"
-    </h3>
-    <p class="text-center text-sm max-w-xs text-slate-700">
-      My new site is so much faster and easier to work with than my old site
-    </p>
-    <span class="text-xs text-center space-y-1">
-      <h4 class="font-bold">
-        Corey Valdez
-      </h4>
-      <p class="text-slate-700">
-        Founder at Zenix
+<section id="testimonials" class="bg-[#F4F7FA] pt-28 w-screen font-montserrat pb-28  flex justify-center widescreen:section-min-height tallscreen:section-min-height">
+  <div class="flex flex-col sm:flex-row space-y-20 sm:space-y-0 sm:space-x-24">  
+    <div class="flex flex-col items-center space-y-4">
+      <img src="build/img/testimonialpic1.png" alt="" class="rounded-full h-16">
+      <h3 class="font-bold">
+        "You made it so simple"
+      </h3>
+      <p class="text-center text-sm max-w-xs text-slate-700">
+        My new site is so much faster and easier to work with than my old site
       </p>
-    </span>
-  </div>
+      <span class="text-xs text-center space-y-1">
+        <h4 class="font-bold">
+          Corey Valdez
+        </h4>
+        <p class="text-slate-700">
+          Founder at Zenix
+        </p>
+      </span>
+    </div>
 
-  <div class="flex flex-col items-center space-y-4">
-    <img src="build/img/testimonialpic2.png" alt="" class="rounded-full h-16">
-    <h3 class="font-bold">
-      "Simply the best"
-    </h3>
-    <p class="text-center text-sm max-w-xs text-slate-700">
-      Better than all the rest. I'd recommend this product to beginners
-    </p>
-    <span class="text-xs text-center space-y-1">
-      <h4 class="font-bold">
-        Ian Klein
-      </h4>
-      <p class="text-slate-700">
-        Digital Marketer
+    <div class="flex flex-col items-center space-y-4">
+      <img src="build/img/testimonialpic2.png" alt="" class="rounded-full h-16">
+      <h3 class="font-bold">
+        "Simply the best"
+      </h3>
+      <p class="text-center text-sm max-w-xs text-slate-700">
+        Better than all the rest. I'd recommend this product to beginners
       </p>
-    </span>
+      <span class="text-xs text-center space-y-1">
+        <h4 class="font-bold">
+          Ian Klein
+        </h4>
+        <p class="text-slate-700">
+          Digital Marketer
+        </p>
+      </span>
+    </div>
   </div> 
 </section>
+
+<!--===PRICING===-->
 <section class="bg-[#161c2d] w-screen font-montserrat">
   <h1 class="pt-14 text-center font-bold text-2xl text-[#ffffff]">
     Pricing & Plans
   </h1>
-  <p class="mx-auto text-center py-4 text-slate-400 text-xs  max-w-md">
-    With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+  <p class="mx-auto text-center py-4 text-slate-400 text-xs max-w-xs sm:max-w-md">
+    With lots of unique blocks, you can easily build a page without coding. <br class="block sm:hidden"> Build your next landing page.
   </p>
 
-  <div class=" pt-12 flex justify-center space-x-6">
-    <div class="flex-col max-w-xs px-2 pt-6 pb-4 bg-[#FCFDFE] rounded-md text-center ">
+  <div class=" pt-12 flex justify-center space-x-3 sm:space-x-6">
+    <div class="flex-col max-w-28 sm:max-w-xs px-2 pt-3 sm:pt-6 pb-2 sm:pb-4 bg-[#FCFDFE] rounded-md text-center ">
       <span class="text-[#473bf0] text-[8px] font-bold  border rounded-full py-1 px-2 bg-gray-300">
         BASIC
       </span>
       
-        <h1 class="font-bold text-4xl pt-8">
+        <h1 class="font-bold text-2xl sm:text-4xl pt-8">
           $29
         </h1>
         <p class="text-slate-400 text-xs pt-2">
           One time purchase
         </p>
-        <p class="text-slate-800 pt-11 text-sm max-w-[280px]">
+        <p class="text-slate-800 pt-11 text-[10px] max-w-[280px]">
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page
         </p>
-        <button class="mt-12 py-3 px-20 rounded-md font-bold text-[#FCFDFE] bg-[#473bf0] text-xs">
+        <button class="mt-12 py-1 sm:py-3 px-4 sm:px-20 rounded-md font-bold text-[#FCFDFE] hover:text-black hover:duration-300 bg-[#473bf0] text-[6px]">
           Get started for free
         </button>
       
     </div>
 
-    <div class="flex-col max-w-xs px-2 pt-6 pb-4 bg-[#FCFDFE] rounded-md text-center ">
+    <div class="flex-col max-w-28 sm:max-w-xs px-2 pt-3 sm:pt-6 pb-2 sm:pb-4 bg-[#FCFDFE] rounded-md text-center ">
       <span class="text-[#473bf0] text-[8px] font-bold  border rounded-full py-1 px-2 bg-gray-300">
         STANDARD
       </span>
       
-        <h1 class="font-bold text-4xl pt-8">
+        <h1 class="font-bold text-2xl sm:text-4xl pt-8">
           $49
         </h1>
         <p class="text-slate-400 text-xs pt-2">
           One time purchase
         </p>
-        <p class="text-slate-800 pt-11 text-sm max-w-[280px]">
+        <p class="text-slate-800 pt-11 text-[10px] max-w-[280px]">
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page
         </p>
-        <button class="mt-12 py-3 px-20 rounded-md font-bold text-[#FCFDFE] bg-[#473bf0] text-xs">
+        <button class="mt-12 py-1 sm:py-3 px-4 sm:px-20 rounded-md font-bold text-[#FCFDFE] hover:text-black hover:duration-300 bg-[#473bf0] text-[6px]">
           Get started for free
         </button>
       
     </div>
 
-    <div class="flex-col max-w-xs px-2 pt-6 pb-4 bg-[#FCFDFE] rounded-md text-center ">
+    <div class="flex-col max-w-28 sm:max-w-xs px-2 pt-3 sm:pt-6 pb-2 sm:pb-4 bg-[#FCFDFE] rounded-md text-center ">
       <span class="text-[#473bf0] text-[8px] font-bold  border rounded-full py-1 px-2 bg-gray-300">
         PREMIUM
       </span>
       
-        <h1 class="font-bold text-4xl pt-8">
+        <h1 class="font-bold text-2xl sm:text-4xl pt-8">
           $99
         </h1>
         <p class="text-slate-400 text-xs pt-2">
           One time purchase
         </p>
-        <p class="text-slate-800 pt-11 text-sm max-w-[280px]">
+        <p class="text-slate-800 pt-11 text-[10px] max-w-[280px]">
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page
         </p>
-        <button class="mt-12 py-3 px-20 rounded-md font-bold text-[#FCFDFE] bg-[#473bf0] text-xs">
+        <button class="mt-12 py-1 sm:py-3 px-4 sm:px-20 rounded-md font-bold text-[#FCFDFE] hover:text-black hover:duration-300 bg-[#473bf0] text-[6px]">
           Get started for free
         </button>      
     </div>
@@ -341,14 +348,14 @@
         ?
     </span>
       <div class="flex-col text-left space-y-3">
-        <h4 class="text-white font-bold">
+        <h4 class="text-sm sm:text-lg text-white font-bold">
           Can I use Albino for my clients?
         </h4>
-        <p class="text-gray-400 text-[12px] max-w-xs">
+        <p class="text-gray-400 text-[10px] sm:text-[12px] max-w-xs">
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
         </p>
-        <p class="text-xs font-bold text-[#68d585] pt-2">
-          Click to learn more<i class="fa-solid fa-arrow-right pl-3 h-1"></i>
+        <p class="text-xs font-bold text-[#68d585] pt-2"><a href="#">
+          Click to learn more<i class="fa-solid fa-arrow-right pl-3 h-1"></a></i>
         </p>
       </div>
     </div>
@@ -358,10 +365,10 @@
         ?
       </span>
       <div class="flex-col text-left space-y-3">
-        <h4 class="text-white font-bold">
+        <h4 class="text-sm sm:text-lg text-white font-bold">
           Do I get free updates?
         </h4>
-        <p class="text-gray-400 text-[12px] max-w-xs">
+        <p class="text-gray-400 text-[10px] sm:text-[12px] max-w-xs">
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
         </p>
        
@@ -375,10 +382,10 @@
       ?
   </span>
     <div class="flex-col text-left space-y-3">
-      <h4 class="text-white font-bold">
+      <h4 class="text-sm sm:text-lg text-white font-bold">
         Does it work with WordPress?
       </h4>
-      <p class="text-gray-400 text-[12px] max-w-xs">
+      <p class="text-gray-400 text-[10px] sm:text-[12px] max-w-xs">
         With lots of unique blocks, you can easily build a page without coding. Build your next landing page. 
       </p>
       
@@ -390,10 +397,10 @@
       ?
   </span>
     <div class="flex-col text-left space-y-3">
-      <h4 class="text-white font-bold">
+      <h4 class="text-sm sm:text-lg text-white font-bold">
        Will you provide support?
       </h4>
-      <p class="text-gray-400 text-[12px] max-w-xs">
+      <p class="text-gray-400 text-[10px] sm:text-[12px] max-w-xs">
         With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
       </p>
      
